@@ -1,0 +1,107 @@
+.input-todo {
+    padding: 10px;
+    /* margin: 20px; */
+}
+
+.todo-add {
+    display: grid;
+    grid-template-rows:1fr  1fr 7.5fr 0.5fr;
+    grid-gap: 10px;
+    max-width: 900px;
+    max-height: 500px;
+
+    background-color: #FAFAFA;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    padding: 10px
+
+}
+
+.button-add {
+    background-color: #3088FE;
+    color: white;
+    font-size:medium;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid white ;
+    cursor: pointer;
+    padding: 15px 40px;
+
+}
+
+.button-add :active {
+    background-color: blue;
+}
+
+
+.todo-list {
+    display: grid;
+    grid-template-rows:0fr 9fr;
+    grid-gap: 10px;
+    max-height: 900px;
+    text-align: center;
+    overflow:auto;
+
+    background-color: #FAFAFA;
+    border-radius: 20px;
+
+}
+.content-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.content {
+    background-color:#FF9E30;
+    /* border: 2px solid grey; */
+    margin: 10px;
+    min-height: 100px;
+    border-radius: 20px; 
+    color: white;
+    font-weight: bold;
+    padding:15px;
+}
+
+.content-done {
+    background-color:#0AD67D;
+    /* border: 2px solid grey; */
+    margin: 10px;
+    min-height: 100px;
+    border-radius: 20px; 
+    color: white;
+    font-weight: bold;
+    padding:15px;
+}
+
+.button-ongoing {
+    padding: 10px 50px;
+    background-color: #FF9E30;
+    color: white;
+    border: 2px double white;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.button-ongoing:hover {
+    background-color: white;
+    color: #FF9E30;
+}
+
+
+
+.button-done {
+    padding: 10px 50px;
+    background-color: #0AD67D;
+    color: white;
+    border: 2px double white;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.button-done:hover {
+    background-color: white;
+    color: #0AD67D;
+}

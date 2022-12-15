@@ -1,0 +1,36 @@
+.template {
+    display :grid;
+    /* border: 2px solid grey; */
+    max-width: 1000px;
+    grid-gap: 2em;
+
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding-top:2rem;
+    
+}
+.template-tokobuah {
+    display :grid;
+    grid-template-rows: 0fr 9fr;
+    /* grid-template-columns: 0fr 9fr; */
+
+    text-align: center;
+    margin: auto;
+    padding-top:1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    
+}
+
+.template-sub-tokobuah {
+    display :grid;
+    /* border: 2px solid grey; */
+    /* max-width: 1000px; */
+    grid-gap: 2em;
+
+    grid-template-columns: 2fr 1fr;
+    /* margin: auto; */
+    /* padding-top:2rem; */
+    /* margin-top: 10%; */
+    
+}
